@@ -1,9 +1,12 @@
+server:
+  port: 5000
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/awsDB?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: root
-    password: mysql
+    url: jdbc:mysql://chanwoo.cft3lvedaleb.us-west-2.rds.amazonaws.com:3306/awsDB?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: chanwoo
+    password: a4613112
 
 
   jpa:
